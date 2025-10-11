@@ -16,11 +16,12 @@ try:
     r = float(input("Anna mulle ringi raadius r ="))
     s = 3,14 * r ** 2
     p = 2 * 3,14 * r
-    print(f"Ringi pindala on {s:0.2f} ja ümbermõõt on {p:.2f}")
+    print(f"Ringi pindala on {s} ja ümbermõõt on {p}")
     turtle.circle(r)
-
 except:
-    print("Kontrolli sisestust!")
+    print("Kontrolli sisestust")
+
+
 
 turtle.done()
 
