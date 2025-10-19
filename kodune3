@@ -1,0 +1,13 @@
+#3. Täringud
+#	kuvatakse korrektne arusaadav küsimus ja hiljem vastus - 1p
+#	kasutaja võistleb kahe täringuga arvuti vastu - 1p
+#	kasutaja teeb pakkumise ning suurima täringupunktisumma võitja saab laual oleva raha endale - 2p
+#	kood kommenteeritud - 1p
+from random import randint
+print("Täringumäng")
+print("")
+
+number1 = randint(1, 6)  # Valib numbri vahemikust 1 kuni kuus ning salvestab selle number1 alla
+print(number1)
+
+print("Veame kihla, kumma täringute summa on suurem?")
