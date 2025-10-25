@@ -13,8 +13,6 @@ tooted={
 
 #2. Loo Pythoni programm, mis töötab etteantud mitmemõõtmelise sõnastikuga, järgides alltoodud juhiseid: 
 
-print(tooted)
-print(tooted["piim"]["kogus"])
 
 # Programm peaks kasutajalt küsima toote nime, mida ta soovib osta
 try:
@@ -37,4 +35,4 @@ try:
 except:
     print("Ole normaalne!!")
 
-tooted[toode]["kogus"] -= kogus #võtab maha
+
