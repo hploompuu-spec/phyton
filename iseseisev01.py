@@ -32,9 +32,10 @@ korgus = float(input("Kui kõrgel asuvad pilved:"))
 
 if korgus >6:
     print("Tegemist on ülemiste pilvedega")
-
+elif korgus <2:
+    print("Tegemist on madalate pilvedega")
 else:
-    print("Need ei ole ülemised pilved")
+    print("Need ei ole keskmiste pilvedega")
 
 
 # 1.4. Bussid
