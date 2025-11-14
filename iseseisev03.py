@@ -12,7 +12,7 @@ def joonista_ring():
 def joonista_viisnurk():
     for i in range(5):
         turtle.fd(100)
-        turtle.rt(144)   # parandatud: 'rd' asemel 'rt'
+        turtle.rt(144) 
 
 def joonista_suvaline():
     kujund = random.choice(["ring", "ruut", "viisnurk"])
@@ -33,9 +33,9 @@ while True:
         print("Sisesta õige arv!")
         continue
 
-    turtle.reset()
+    turtle.clear()
 
-    for i in range(arv):   # parandatud: tsükkel
+    for i in range(arv): 
         if kujund == "ruut":
             joonista_ruut()
         elif kujund == "ring":
@@ -54,7 +54,7 @@ while True:
 
     uuesti = input("Kas soovid korrata (jah/ei)? ")
     if uuesti.lower() != "jah":
-        print("Nägemist")
+        print("Nägemist!")
         break
 
 turtle.done()
