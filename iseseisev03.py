@@ -24,7 +24,7 @@ def joonista_suvaline():
         joonista_viisnurk()
 
 while True:
-    kujund = input("Millist kujundit (ruut, ring, viisnurk, suvaline) sooviksid joonistada? ")
+    kujund = input("Millist kujundit (ruut, ring, viisnurk, suvaline) sooviksid joonistada? ").lower()
     arv = input("Kui mitu kujundit sooviksite joonistada? ")
 
     try:
@@ -52,7 +52,7 @@ while True:
         turtle.fd(125)
         turtle.pendown()
 
-    uuesti = input("Kas soovid korrata (jah/ei)? ")
+    uuesti = input("Kas soovid korrata (jah/ei)? ").lower()
     if uuesti.lower() != "jah":
         print("Nägemist!")
         break
